@@ -1,0 +1,25 @@
+﻿{
+  "Metadata": {
+    "Id": "c017d607-4e66-466f-b29e-0d9242877b67",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Response_Form",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Data",
+        "tableView": true,
+        "key": "data",
+        "type": "textarea",
+        "rows": 15,
+        "input": true
+      }
+    ]
+  }
+}

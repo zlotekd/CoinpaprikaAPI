@@ -1,0 +1,49 @@
+﻿{
+  "Metadata": {
+    "Id": "20a9e8c0-ad9a-45f9-887b-5c4a588255db",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Information_Type",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Please select type of cryptocurrency data",
+        "widget": "choicesjs",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Global market data",
+              "value": "global"
+            },
+            {
+              "label": "BTC",
+              "value": "coins/btc-bitcoin"
+            },
+            {
+              "label": "ETH",
+              "value": "coins/eth-ethereum"
+            }
+          ]
+        },
+        "key": "pleaseSelectTypeOfCryptocurrencyData",
+        "type": "select",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
